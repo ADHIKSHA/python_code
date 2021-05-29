@@ -14,9 +14,8 @@ def remove_duplicates(input: list) -> list:
     Returns:
         List without duplicates.
     """
-    no_dup_dict = dict.fromkeys(input)
-    no_dup_list= list(no_dup_dict.keys())
-    return no_dup_list
+    no_dup_dict = list(dict.fromkeys(input))
+    return no_dup_dict
 
 
 def sort_list(input: list) -> list:
